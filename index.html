@@ -370,16 +370,6 @@ $(function() {
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/07/18/Mac下搭建基于GitHub的Hexo博客/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/07/18/Mac下搭建基于GitHub的Hexo博客/" itemprop="commentCount">Comments </span>
-                </a>
-              </span>
-            
           
 
           
@@ -533,16 +523,6 @@ $(function() {
           
 
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/07/11/Bear/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/07/11/Bear/" itemprop="commentCount">Comments </span>
-                </a>
-              </span>
             
           
 
@@ -885,28 +865,6 @@ setInterval("createtime()",250);
 
 
 
-
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: 'LLV4P3XJ9jEcuxihOgI5XXNc-gzGzoHsz',
-        appKey: 'Pxq3f9mIyuDcHsnbunyHykJ2',
-        placeholder: 'Just go go',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
 
 
 
